@@ -83,7 +83,7 @@ const SocialButton = () => {
         )}
         {siteConfig('CONTACT_BILIBILI') && (
           <a
-            target='_blank'
+            target='https://www.bilibili.com/online.html'
             rel='noreferrer'
             title={'bilibili'}
             href={siteConfig('CONTACT_BILIBILI')}>
